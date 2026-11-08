@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puro Grão — Café & Empório Saudável</title>
+  <meta name="description" content="Puro Grão: café e empório saudável em Araranguá/SC. Toasts, crepiocas, tortas, saladas e doces sem glúten e sem lactose.">
+  <meta name="theme-color" content="#848f63">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#inicio" class="nav__logo" aria-label="Puro Grão — início">
+      <img class="logo" src="assets/img/logo.webp" alt="Puro Grão" width="600" height="262">
+    </a>
+    <nav class="nav__links" id="menu" aria-label="Principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#emporio">Empório</a>
+      <a href="#ambiente">Ambiente</a>
+      <a href="#visite">Visite</a>
+      <a href="https://wa.me/5548991665724" target="_blank" rel="noopener" class="btn btn--small">Fale conosco</a>
+    </nav>
+    <button class="nav__toggle" id="toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero__slides" aria-hidden="true">
+    <img class="hero__slide is-active" src="assets/img/hero-1.webp" srcset="assets/img/hero-1.webp 800w, assets/img/hero-1-lg.webp 1440w" sizes="100vw" alt="" fetchpriority="high">
+    <img class="hero__slide" data-src="assets/img/hero-2.webp" data-srcset="assets/img/hero-2.webp 800w, assets/img/hero-2-lg.webp 1440w" sizes="100vw" alt="">
+    <img class="hero__slide" data-src="assets/img/hero-3.webp" data-srcset="assets/img/hero-3.webp 800w, assets/img/hero-3-lg.webp 1254w" sizes="100vw" alt="">
+    <img class="hero__slide" data-src="assets/img/hero-4.webp" data-srcset="assets/img/hero-4.webp 800w, assets/img/hero-4-lg.webp 1243w" sizes="100vw" alt="">
+    <img class="hero__slide" data-src="assets/img/hero-5.webp" data-srcset="assets/img/hero-5.webp 800w, assets/img/hero-5-lg.webp 1440w" sizes="100vw" alt="">
+  </div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <img class="logo logo--hero hero__in" style="--d:.1s" src="assets/img/logo.webp" alt="Puro Grão" width="600" height="262">
+    <p class="hero__eyebrow hero__in" style="--d:.35s">Café &amp; Empório Saudável</p>
+    <h1 class="hero__title hero__in" style="--d:.55s">A pausa que você merece,<br><em>com sabor e saúde.</em></h1>
+    <div class="hero__cta hero__in" style="--d:.8s">
+      <a href="#cardapio" class="btn">Ver cardápio</a>
+      <a href="#visite" class="btn btn--ghost">Como chegar</a>
+    </div>
+  </div>
+  <a href="#sobre" class="hero__scroll" aria-label="Rolar para baixo"><span></span></a>
+</section>
+
+<!-- SOBRE -->
+<section class="section sobre" id="sobre">
+  <div class="container sobre__grid">
+    <div class="sobre__text">
+      <p class="eyebrow reveal">Nossa essência</p>
+      <h2 class="title reveal">Um lugar que acolhe com comida boa e um sorriso no rosto.</h2>
+      <p class="lead reveal">No Puro Grão, cada detalhe é pensado para quem busca equilíbrio sem abrir mão do sabor. Pratos leves, ingredientes naturais e um ambiente cercado de verde — para desconectar, encontrar pessoas e viver momentos de paz.</p>
+      <ul class="tags reveal">
+        <li>Sem glúten</li>
+        <li>Sem lactose</li>
+        <li>Opções veganas</li>
+        <li>Sem açúcar refinado</li>
+      </ul>
+    </div>
+    <div class="sobre__media">
+      <figure class="frame frame--tall reveal reveal--right"><img src="assets/img/mesa-variedade.webp" alt="Mesa com variedade de pratos do Puro Grão" loading="lazy" decoding="async"></figure>
+      <figure class="frame frame--small reveal reveal--up" style="--d:.2s"><img src="assets/img/toast-parma.webp" alt="Toast de presunto parma no pão multigrãos" loading="lazy" decoding="async"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- CARDÁPIO -->
+<section class="section cardapio" id="cardapio">
+  <div class="container">
+    <div class="section__head">
+      <p class="eyebrow reveal">Cardápio</p>
+      <h2 class="title reveal">Feito com carinho,<br>do grão ao prato.</h2>
+    </div>
+    <div class="cards">
+      <article class="card reveal" style="--d:0s">
+        <div class="card__img"><img src="assets/img/toast-tomate.webp" alt="Toasts com tomate e folhas" loading="lazy" decoding="async"></div>
+        <div class="card__body"><h3>Toasts</h3></div>
+      </article>
+      <article class="card reveal" style="--d:.1s">
+        <div class="card__img"><img src="assets/img/almoco.webp" alt="Prato de almoço com salada" loading="lazy" decoding="async"></div>
+        <div class="card__body"><h3>Saladas &amp; Wraps</h3></div>
+      </article>
+      <article class="card reveal" style="--d:.2s">
+        <div class="card__img"><img src="assets/img/pratos.webp" alt="Crepiocas e pratos do Puro Grão" loading="lazy" decoding="async"></div>
+        <div class="card__body"><h3>Crepiocas</h3></div>
+      </article>
+      <article class="card reveal" style="--d:0s">
+        <div class="card__img"><img src="assets/img/torta-mousse.webp" alt="Torta mousse com geleia de frutas vermelhas" loading="lazy" decoding="async"></div>
+        <div class="card__body"><h3>Tortas funcionais</h3></div>
+      </article>
+      <article class="card reveal" style="--d:.1s">
+        <div class="card__img"><img src="assets/img/cookie-vegano.webp" alt="Cookie vegano" loading="lazy" decoding="async"></div>
+        <div class="card__body"><h3>Cookies veganos</h3></div>
+      </article>
+      <article class="card reveal" style="--d:.2s">
+        <div class="card__img"><img src="assets/img/pao-graos.webp" alt="Pão de grãos tostado com suco" loading="lazy" decoding="async"></div>
+        <div class="card__body"><h3>Pão de grãos</h3></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- EMPÓRIO -->
+<section class="section emporio" id="emporio">
+  <div class="container emporio__grid">
+    <figure class="frame frame--wide reveal reveal--left"><img src="assets/img/emporio.webp" alt="Prateleiras do empório com produtos naturais a granel" loading="lazy" decoding="async"></figure>
+    <div class="emporio__text">
+      <p class="eyebrow reveal">Empório saudável</p>
+      <h2 class="title reveal">Leve o Puro Grão para casa.</h2>
+      <p class="lead reveal">Produtos naturais a granel com toda a linha de oleaginosas, farinhas, grãos e muito mais — selecionados para deixar sua rotina mais saudável.</p>
+      <a href="https://wa.me/5548991665724" target="_blank" rel="noopener" class="btn reveal">Consultar produtos</a>
+    </div>
+  </div>
+</section>
+
+<!-- NOSSO AMBIENTE -->
+<section class="section ambiente" id="ambiente">
+  <div class="container ambiente__grid">
+    <div class="ambiente__text">
+      <p class="eyebrow reveal">Nosso ambiente</p>
+      <h2 class="title reveal">Um cantinho verde para desacelerar.</h2>
+      <p class="lead reveal">Mesas ao ar livre cercadas de plantas, café passado na hora e um cardápio pensado para fazer bem. Venha conhecer de pertinho.</p>
+      <div class="reveal">
+        <a href="https://www.instagram.com/purograogourmet/" target="_blank" rel="noopener" class="btn btn--outline">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4ZM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4ZM12 2c-2.7 0-3 0-4.1.1-4 .2-5.6 1.8-5.8 5.8C2 9 2 9.3 2 12s0 3 .1 4.1c.2 4 1.8 5.6 5.8 5.8 1.1.1 1.4.1 4.1.1s3 0 4.1-.1c4-.2 5.6-1.8 5.8-5.8.1-1.1.1-1.4.1-4.1s0-3-.1-4.1c-.2-4-1.8-5.6-5.8-5.8C15 2 14.7 2 12 2Zm0 1.8c2.7 0 3 0 4 .1 3 .1 4 1.2 4.1 4.1.1 1 .1 1.3.1 4s0 3-.1 4c-.1 3-1.2 4-4.1 4.1-1 .1-1.3.1-4 .1s-3 0-4-.1c-3-.1-4-1.2-4.1-4.1-.1-1-.1-1.3-.1-4s0-3 .1-4C4 5 5 4 8 3.9c1-.1 1.3-.1 4-.1Z"/></svg>
+        @purograogourmet
+      </a>
+      </div>
+    </div>
+    <figure class="ambiente__video reveal reveal--right">
+      <video src="assets/video/ambiente.mp4" poster="assets/img/ambiente-poster.webp" width="540" height="960" muted loop playsinline preload="none" aria-label="Vídeo do ambiente do Puro Grão"></video>
+    </figure>
+  </div>
+</section>
+
+<!-- VISITE -->
+<section class="section visite" id="visite">
+  <div class="container visite__grid">
+    <div class="visite__info">
+      <p class="eyebrow eyebrow--light reveal">Visite-nos</p>
+      <h2 class="title title--light reveal">Estamos te esperando.</h2>
+      <div class="info reveal">
+        <h3>Horário</h3>
+        <p>Segunda a sexta · 10h às 19h<br>Sábado · 11h às 19h</p>
+      </div>
+      <div class="info reveal">
+        <h3>Endereço</h3>
+        <p>Rua Maestro Serafim Silva, 845<br>Urussanguinha · Araranguá/SC</p>
+      </div>
+      <div class="info reveal">
+        <h3>Contato</h3>
+        <p><a href="https://wa.me/5548991665724" target="_blank" rel="noopener">(48) 99166-5724</a></p>
+      </div>
+      <div class="visite__cta reveal">
+        <a href="https://wa.me/5548991665724" target="_blank" rel="noopener" class="btn btn--light">Chamar no WhatsApp</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Rua+Maestro+Serafim+Silva+845+Ararangu%C3%A1+SC" target="_blank" rel="noopener" class="btn btn--ghost">Abrir no mapa</a>
+      </div>
+    </div>
+    <div class="map reveal reveal--right">
+      <iframe title="Mapa do Puro Grão" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Rua+Maestro+Serafim+Silva+845+Ararangu%C3%A1+SC&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <img class="logo logo--footer" src="assets/img/logo.webp" alt="Puro Grão" width="600" height="262">
+    <p>Café &amp; Empório Saudável · Araranguá/SC</p>
+    <p class="footer__small">© <span id="year"></span> Puro Grão. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- WhatsApp flutuante -->
+<a href="https://wa.me/5548991665724" target="_blank" rel="noopener" class="wa" aria-label="Fale conosco no WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3ZM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8ZM20.5 3.5A11.8 11.8 0 0 0 1.9 17.7L.2 24l6.4-1.7A11.8 11.8 0 0 0 24 12c0-3.2-1.2-6.2-3.5-8.5Z"/></svg>
+</a>
+
+
+<script src="script.js"></script>
+</body>
+</html>
